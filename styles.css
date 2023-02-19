@@ -1,0 +1,464 @@
+
+
+
+body{
+    margin: 0;
+    padding: 0;
+    border:0;
+    color: #FFFFFF;
+    font-family: 'Montserrat';
+    width: 100%;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+
+}
+.wrapper {
+    overflow: hidden;
+    min-height: 100%;
+    display: flex;
+    justify-content: space-between;
+    min-width: 380px;
+}
+
+.container {
+    /* background: url(./images/Vector.png); */
+
+    background-color: #181818;
+    justify-content: center;
+    display: flex;
+    flex-direction: row;
+    height: 100%;
+    min-height: 100vh;
+    width: 100%;
+    overflow: hidden;
+
+}
+
+.blockText {
+    
+    margin-top: 1.4%;
+    display: block;
+    /* max-width: 770.83px;
+    min-width: 750px; */
+    /* margin-left: 5.23%; */
+}
+
+
+.blockDevice {
+    min-width: 827px;
+    margin-bottom: 3.6%;
+    margin-left: -100px;
+}
+
+.text_1 {
+
+    margin-top:8.09%;
+    padding-bottom: 0;
+    margin-bottom: 0px;
+    /* height: 20.52%; */
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 3.5em;
+    line-height: 90%;
+
+}
+
+.text_1_1 {
+    margin-top:20px;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 3.5em;
+    line-height: 90%;
+}
+
+.text_2 {
+/* border:1px solid red; */
+    max-width: 586.36px;
+    margin-top: 10%;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 22px;
+    line-height: 37.4px;
+}
+
+.text_3 {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 900;
+    font-size: 2.8rem;
+    line-height: 90%;
+    padding-top:7%;
+
+}
+.signs {
+    font-weight: 400;
+}
+
+.text_4{
+    max-width: 599.58px;
+    min-width: 599.58px;
+    font-style: normal;
+    font-weight: 900;
+    font-size: 3.6rem;
+    line-height: 90%;
+    padding-top:5%;
+    padding-left: 9%;
+    overflow: hidden;
+}
+
+/* ------------------------------------------------------------------------------ */
+
+
+.blockImage {
+
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    display: flex;
+    position: relative;
+    justify-content: center;
+    align-items:center;
+    flex-direction: column;
+    width: 100%;
+    max-width: 435px;
+    min-width: 410px;
+
+    height: 982px;
+    overflow: hidden;
+
+}
+
+
+
+
+
+.ellipse {
+    -webkit-justify-content: center;
+    -webkit-align-items: center;
+    -webkit-border: 0;
+
+    -webkit-background: #000000;
+    -webkit-width: 0;
+
+    -webkit-height: 0;
+    -webkit-border-radius: 80%;
+    -webkit-margin: auto;
+    -webkit-bottom: -344px;
+    -webkit-z-index: 3;
+    -webkit-overflow: hidden;
+    -webkit-transition: width 1.3s ease-in-out,height 1.3s ease-in-out;
+
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    position: relative;
+    display: flex;
+
+    justify-content: center;
+    align-items: center;
+    border: 0;
+
+    background: #000000;
+    width: 0;
+
+    height: 0;
+    border-radius: 80%;
+    margin: auto;
+    bottom: -344px;
+    z-index: 3;
+    overflow: hidden;
+    transition: width 1.3s ease-in-out,height 1.3s ease-in-out;
+}
+
+
+
+.image1 {
+
+    -webkit-display: block;
+    -webkit-margin: auto;
+    -webkit-top: 900px;
+    -webkit-left: 0;
+    -webkit-right: 0;
+
+    -webkit-height: 750px;
+    -webkit-max-width: 435px;
+
+    -webkit-opacity: 100%;
+
+    -webkit-z-index: 1;
+    -webkit-animation-name: girl;
+    -webkit-animation-delay:6s;
+    -webkit-animation-duration: 3s;
+    -webkit-animation-iteration-count: infinite;
+    -webkit-animation-timing-function: ease-in-out;
+
+
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    position: absolute;
+
+    display: block;
+    margin: auto;
+    top: 900px;
+    left: 0;
+    right: 0;
+
+    height: 750px;
+    max-width: 435px;
+
+    opacity: 100%;
+
+    z-index: 1;
+    animation-name: girl;
+    animation-delay:6s;
+    animation-duration: 3s;
+    animation-iteration-count: infinite;
+    animation-timing-function: ease-in-out;
+
+}
+
+
+.image2 {
+
+    /* -webkit-animation-name: girl;
+    -webkit-animation-delay: 6s;
+    -webkit-animation-duration: 3s;
+    -webkit-animation-iteration-count: infinite;
+    -webkit-animation-timing-function: ease-in-out;
+    -webkit-top: 469px;
+    -webkit-box-sizing: border-box;
+    -webkit-position: absolute;
+    -webkit-margin: auto;
+    -webkit-bottom: 0; */
+    /* -webkit-transition: transform 5s ease-in-out;
+    -webkit-transform: translateY(-850px) ; */
+
+    display: block;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    position: absolute;
+    margin: auto;
+    bottom: 0;
+    top: 469px;
+    height: 750px;
+    max-width: 435px;
+    z-index: 0;
+    animation-name: girl;
+    animation-delay: 6s;
+    animation-duration: 3s;
+    animation-iteration-count: infinite;
+    animation-timing-function: ease-in-out;
+
+}
+.hidden {
+    /* background: url(./images/Vector.png); */
+
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    position: absolute;
+    height: 208px;
+    width: 85%;
+    margin: auto;
+    top: 0;
+    bottom: -890px;
+    left: 0;
+    right: 0;
+    background-color: #181818;
+    z-index: 2;
+}
+
+
+@keyframes girl {
+    0% {
+        -webkit-transform: translateY(-850px);
+        transform: translateY(-850px);
+    }
+    50% {
+        -webkit-transform: translateY(-830px);
+
+        transform: translateY(-830px);
+    }
+    100% {
+        -webkit-transform: translateY(-850px);
+
+        transform: translateY(-850px);
+
+    }   
+}
+
+
+
+
+
+/* ------------------------------------------------------------------------------ */
+.end{
+    display: none;
+    padding-bottom: 13px;
+}
+.text_5 {
+   
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 900;
+    font-size: 38.6546px;
+    line-height: 90%;
+    padding-bottom: 8px;
+    padding-left: 16px;
+}
+.text_6 {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 900;
+    font-size: 61.4163px;
+    line-height: 90%;
+    padding-bottom: 13px;
+    padding-left: 10px;
+
+}
+.text_7 {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 900;
+    font-size: 49.8561px;
+    line-height: 90%;
+    padding-left: 16px;
+
+}
+
+@media (max-width:1810px) {
+    .container {
+        max-width: 1810px;
+        flex-direction: column;
+        justify-content: center;
+        align-items:center;
+    }
+    
+    .end {
+        display: flex;
+        flex-direction: column;
+    }
+    .image1 {
+        height: 756px;
+    }
+
+    .image3 {
+        display: block;
+        height: 424px;
+        width: 411px;
+        margin: auto;
+    }
+    .text_4, .text_3 {
+        display: none;
+    }
+
+    .text_2,.text_1, .text_1_1 {
+        margin-left: 20px;
+        margin-right: 20px;
+    }
+    .blockDevice {
+        margin-left: 0;
+    }
+}
+@media (max-width:786px) {
+    .container {
+        max-width: 786px;
+    }
+    .wrapper {
+        max-width: 786px;
+    }
+    .blockText {
+        border:10px;
+     
+        width: 400px;
+    }
+}
+@media (max-width:400px) {
+    .blockText {
+        border:10px;
+     
+        width: 290px;
+        height: 474px;
+    }
+    .container {
+        max-width: 400px;
+    }
+    .text_1, .text_1_1 {
+        font-family: 'Montserrat';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 34px;
+        line-height: 100%;
+    }
+   .blockImage {
+    top:100px;
+   }
+    .text_2 {
+        margin-left: 20px;
+        margin-right: 20px;
+        font-family: 'Montserrat';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 170%;
+    } 
+
+    .image3 {
+        display: block;
+        height: 424px;
+        width: 411px;
+        padding-left: 30px;
+    }
+    .blockDevice {
+        z-index: 99;
+    }
+  
+}
+
+
+
+/* body {
+    overflow: visible;
+    z-index: 0;
+}
+.container {
+    overflow: visible;
+    z-index: 0;
+}
+.blockImage {
+    overflow: visible;
+    z-index: 0;
+}
+.ellipse {
+    overflow: visible;
+    z-index: 0;
+}
+.hidden {
+    overflow: visible;
+    z-index: 0;
+}
+.image2 {
+    overflow: visible;
+    z-index: 0;
+}
+.image1 {
+    overflow: visible;
+    z-index: 0;
+} */
+/* @keyframes girl {
+    0% {
+        transform: translateY(-920px);
+    }
+    50% {
+        transform: translateY(-890px);
+    }
+    100% {
+        transform: translateY(-920px);
+
+    }   
+} */
+
+
+
+/* 1)попробовать сделать блок blockImg круглым, ровно по нижнему овалу
+2)убрать блок hidden */
